@@ -1,10 +1,11 @@
 #include <stdio.h>
  
 int main() {
-    int a[3][3] = { 0, };
+    int a[15][15] = { 0, };
     int num = 1, x = 0, y = 0;
     int i, k, j;
-    int size, sign = 1;
+    int size = 15;
+    int sign = 1;
  
     for (k = 0; k < size; ++k) {
         a[y][x] = num++;
